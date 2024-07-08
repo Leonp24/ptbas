@@ -1,0 +1,23 @@
+#judul1 {
+    color: green;
+}
+#judul2 {
+    color: red;
+}
+.judul1 {
+    color: red;
+}
+.judul2 {
+    color: green;
+}
+
+.keluarga .ayah {
+    color: purple;
+}
+
+.keluarga .ibu {
+    color: violet;
+}
+.keluarga .anak {
+    color: coral;
+}

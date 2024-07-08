@@ -1,0 +1,36 @@
+Css adalah program yang berfungsi untuk memodifikasi atau mengatur styling(gaya) dari konten yang ada pada HTML.
+
+didalam penulisan css, terdapat property dan nilai.
+contoh :
+"nama property : nilai;"
+
+tipe-tipe CSS
+CSS memiliki tipe-tipe yang berbeda-beda, yaitu:
+1. CSS Inline
+2. CSS Internal
+3. CSS External
+
+css inline :
+css inline adalah css yang di letakkan pada tag(pembuka) html.
+- css inline cara pemanggilannya berupa atribut "style"
+
+css internal :
+css internal adalah css yang di letakkan pada tag head di html.
+- css internal cara pemanggilannya berupa tag "style"
+
+css external :
+css external adalah css yang di letakkan pada file css yang terpisah.
+*kita perlu menghubungkan file css external kedalam file html
+- css external cara menghubungkan filenya dengan tag "link"
+
+=================================================================
+
+Element Selector :
+element selector adalah selector yang digunakan untuk memilih elemen yang ada pada html.
+
+contoh element selector :
+element selector tag html (sifatnya universal)
+element selector id (sifatnya spesifik)
+element selector class (sifatnya spesifik)
+
+

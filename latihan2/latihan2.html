@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 2</title>
+
+    <!-- menggunakan css internal -->
+    <style>
+    /* perlu panggil selector */
+        h3 {
+            color: green;
+        }
+        #teks {
+            color: purple;
+        }
+        .teks {
+            color: violet;
+        }
+    </style>
+
+    <!-- menghubungkan file external css -->
+    <link rel="stylesheet" href="./latihan2.css">
+</head>
+<body>
+    <!-- membuat atribut identitas -->
+    <!-- terdiri dari 2 atribut yaitu id dan class -->
+    <!-- id memiliki simbol "#" dan class memiliki simbol "." -->
+
+    <!-- membuat atribut id # -->
+    <h1 id="teks">Ini adalah contoh dari id</h1>
+
+    <!-- membuat atribut class . -->
+    <h1 class="teks">Ini adalah contoh dari class</h1>
+
+
+    <!-- menggunakan css inline -->
+    <h2 style="color: red;">Ini contoh css inline</h2>
+
+    <!-- menggunakan css internal -->
+    <h3>Ini contoh css internal selector tag html</h3>
+
+    <!-- menggunakan css external -->
+    <div class="induk">
+        <h4>Ini contoh css external</h4>
+        <h1 id="anak">Ini id anak dari class induk</h1>
+        <h1 class="anak">ini class anak dari class induk</h1>
+    </div> 
+
+    <h4>ini bukan anak dari class induk</h4>
+
+</body>
+</html>

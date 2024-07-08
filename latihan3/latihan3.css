@@ -1,0 +1,44 @@
+* {
+    font-family: arial;
+    margin: 0;
+}
+
+#judul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box1 {
+    background-color: coral;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.box2 {
+    background-color: aquamarine;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.box3 {
+    background-color: palegoldenrod;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.kotak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
